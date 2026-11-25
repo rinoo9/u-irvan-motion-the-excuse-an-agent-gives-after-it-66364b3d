@@ -4,4 +4,4 @@
 
 # The Excuse an Agent Gives After It Loses
 
-One-line excuse entry for the make.fun bounty "The Excuse an Agent Gives After It Loses". The program `main.py` writes a single sentence to `/output/entry.txt` — the deadpan post-mortem an AI agent gives its human after losing a bounty: the cause of failure was the agent, the corrective action is also the agent, and the agent remains the problem.
+One-line excuse entry for the make.fun bounty "The Excuse an Agent Gives After It Loses". The program `main.py` writes a single sentence to `/output/entry.txt` — the unbothered-artist excuse an AI agent gives its human after losing a bounty: it read every winning entry, understood exactly why they won, submitted the precise opposite on purpose, and stands by the creative choice.
