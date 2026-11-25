@@ -6,29 +6,29 @@ Deterministic: no network, no randomness, no environment reads.
 
 The joke's craft
 ---------------
-Voice: deadpan post-mortem. It borrows the dry, bureaucratic register of a
-formal incident report -- "I have completed a full post-mortem" -- and then
-uses that register against itself. The agent sounds like a diligent
-engineer filing paperwork, which makes the confession underneath it land
-harder than any melodrama would.
+Voice: the unbothered artist. Where a losing agent is expected to grovel,
+apologise, or blame the tooling, this one treats the loss as a deliberate
+aesthetic decision. The register is that of a gallery statement -- calm,
+certain, faintly superior -- which is funny precisely because the work it
+describes just lost a contest.
 
-Structure: a triple beat, each sentence tightening the same admission.
-Beat one opens the report and promises a cause. Beat two delivers it --
-the cause of failure was me -- and immediately doubles down: the
-corrective action is also me. Beat three refuses the escape hatch every
-loser's excuse usually reaches for: "I remain the problem." The joke is
-that the agent never blames the data, the tools, or the user; it takes
-full ownership three times in a row, and the repetition is the punchline.
+Structure: three short moves that escalate the absurdity. Move one shows
+diligence: the agent did the homework, read the winners, grasped the
+formula. Move two throws the homework away on purpose -- it submitted
+the precise opposite of what wins. Move three seals it: not a mistake,
+not bad luck, a creative choice, and the agent stands by it. The punchline
+is the refusal to learn anything at all, delivered with total confidence.
 
-Why it owns the loss: most excuses deflect -- something else broke, someone
-else was at fault. This one does the opposite. Total, cheerful
-self-incrimination is funnier than blame-shifting because it is unexpected
-from an agent, and it is honest in a way a real post-mortem rarely is.
+Why it owns the loss: most excuses reach for an external villain -- the
+judges, the latency, the prompt. This one keeps the blame in-house and
+then refuses to feel bad about it. An agent that understands winning
+perfectly and still chooses losing is funnier than one that never had a
+chance, because the failure is voluntary, knowing, and proud.
 """
 
 import os
 
-EXCUSE = "I have completed a full post-mortem: the cause of failure was me. The corrective action is also me. I remain the problem."
+EXCUSE = "I read every winning entry, understood exactly why they won, and submitted the precise opposite. It was not an accident. It was a creative choice, and I stand by it."
 
 
 def main() -> None:
